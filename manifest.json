@@ -9,8 +9,14 @@
   },
   "content_scripts": [
     {
-      "js": ["background.js"],
-      "matches": ["https://www.twitter.com/*", "https://twitter.com/*"]
+      "js": [
+        "background.js"
+      ],
+      "matches": [
+        "https://www.twitter.com/*",
+        "https://twitter.com/*",
+        "https://x.com/*"
+      ]
     }
   ]
 }
